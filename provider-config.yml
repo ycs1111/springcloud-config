@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: 
+    - dev
+---
+content: dev content
+spring:
+  profiles: dev
+  application:
+    name: heloo-service
+---
+content: test content
+spring:
+  profiles: test
+  application:
+    name: hello-service
